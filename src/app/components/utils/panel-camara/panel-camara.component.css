@@ -1,0 +1,26 @@
+.matriz {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 50px;
+    /* Ajusta el ancho y el alto según tus necesidades */
+    height: 50px;
+    /* Puedes personalizar el color del cuadrado */
+    border: 1px solid #000;
+    /* Puedes personalizar el estilo del borde */
+
+    margin: 2px;
+}
+
+.verde {
+    background-color: #14c214c7;
+}
+.rojo {
+    background-color: #c21414c7;
+}

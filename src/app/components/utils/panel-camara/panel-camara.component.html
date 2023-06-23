@@ -1,0 +1,7 @@
+<div>
+    <div class="matriz">
+        <div *ngFor="let row of rows" class="row">
+            <div *ngFor="let square of row" class="square {{square.color ? 'verde' : 'rojo'}}" (click)="square.color = !square.color">{{square.selector}}</div>
+        </div>
+    </div>
+</div>
